@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","mappings":"QAAAA,QAAQC,IAAI,gB","sources":["webpack://src/./src/index.js"],"sourcesContent":["console.log(\"Hello World!\");\n"],"names":["console","log"],"sourceRoot":""}
+{"version":3,"file":"main.js","mappings":";;;;;;AAAAA,OAAO,CAACC,GAAG,CAAC,cAAc,CAAC,C","sources":["webpack://src/./src/index.js"],"sourcesContent":["console.log(\"Hello World!\");\n"],"names":["console","log"],"sourceRoot":""}
