@@ -1,6 +1,6 @@
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
 
-const path = require("path"`src`);
+const path = require("path",`src`);
 const join=path
 const include=join(path.dirname,)
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -15,8 +15,17 @@ const config = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-  },
-  devServer: {
+    librarytarget:"umd",
+    library:"src"
+  },devtool:`source-map`,
+  module:{
+    loader:{test: /\.js$/,loader:`babel-loader`,include}
+  }
+
+  
+
+  
+ , devServer: {
     open: true,
     host: "localhost",
   },
