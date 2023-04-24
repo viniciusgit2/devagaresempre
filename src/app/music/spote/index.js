@@ -1,5 +1,7 @@
 import { url } from "./config";
-export default class spote{
+import { headher } from "./config";
+
+export default class spots{
   constructor(options){
     this.url=options.url ||url
     this.token=options.token
