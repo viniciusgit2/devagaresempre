@@ -7,6 +7,6 @@ export const externalurl="https://open.spotify.com/album/3rHHZXuSkY3kpLbCG2e4J7"
 export const url =   ` https://api.spotify.com/v1/albums/{id}`
 export const headher={
     headher:{
-        authorization:bear + access ,externalurl
+        authorization: `bear  $[externalurl] `+externalurl,
     }
 }
