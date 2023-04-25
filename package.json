@@ -15,7 +15,8 @@
     "build4": "./node_modules/.bin/webpack --output-filename  music.umd.min.js --mode=production ",
     "build5": "yarn build2 && yarn build3 && yarn build4",
     "build6": "./node_modules/.bin/webpack server --mode=development ",
-    "clear": "rimraf lib && rimraf node_modules"
+    "clear": "rimraf lib && rimraf node_modules",
+    "tdd": "./node_modules/.bin/mocha /**/* src/mocha/testes/.spec.js --watch"
   },
   "dependencies": {
     "@types/node": "18.15.12",
